@@ -1,0 +1,24 @@
+{
+  "name": "ezdev-showcase-pcview",
+  "version": "1.0.0",
+  "description": "pcview前端开发框架演示",
+  "scripts": {
+    "build": "webpack  --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zhaofs@aliyun.com",
+  "license": "ISC",
+  "devDependencies": {
+    "art-template-loader": "^1.3.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "ezdev-pcview": "^3.0.1"
+  }
+}
